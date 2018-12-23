@@ -1,0 +1,175 @@
+@media(max-width: 768px){
+	header #branding, header nav, header nav li, #offer h1, #offer form{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	header{
+		padding-bottom:20px;
+	}
+	
+	#showcase h1 {
+		margin-top: 40px;
+	}
+	
+	#offer button{
+		display: block;
+		width: 100%;
+	}
+	
+	#offer form input[type="email"]{
+		width:100%;
+		margin-bottom: 5px;
+	}
+	
+	#foodbox .box{
+	display: none;
+	}
+	
+	footer .last, footer ul {
+		float: none;
+		text-align: center;
+		list-style: none;
+	}
+	
+	footer h3{
+		float: left;
+	}
+	
+}
+
+
+body{
+	font-family: Aria, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+.container{
+	width: 90%;
+	overflow:hidden;
+	margin:auto;
+}
+
+header{
+	background: red;
+	color: white;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: black 1px solid;
+}
+
+header a{
+	color: #00ffbf;
+	text-decoration: none;
+	text-transform: ;
+	font-size: 16px;
+}
+
+header ul{
+	margin:0;
+	padding:0;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a{
+	color: #00ffbf;
+	font-weight: bold;
+}
+
+#showcase{
+	min-height: 400px;
+	background: url('../img/m.jpg')no-repeat 0;
+text-align: center;
+background-size: cover;
+background-position: center;
+}
+
+#showcase h1{
+	margin-top: 100px;
+	font-size:55px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+#showcase h4{
+	font-size: 15px;
+	color: white;
+}
+
+#offer{
+	padding: 15px;
+	color: white;
+	background: red;
+}
+
+#offer h1{
+	float: left;
+}
+#offer form{
+	float: right;
+	margin-top: 20px;
+}
+
+#offer input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width:250px;
+}
+.button1{
+	height: 38px;
+	background: #blue;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: red;
+}
+ 
+#foodbox .box{
+	float: left;
+	width: 20%;
+	padding: 20px;
+	text-align: center;
+}
+
+.last{
+	float: left;
+width: 20%;
+padding: 20px;
+    margin-left: 250px;
+}
+
+footer{
+	background:red;
+}
+.fot{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 40px;
+    font-family: tahoma;
+    color: white;
+    
+}
+
+
